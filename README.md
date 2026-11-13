@@ -10,6 +10,8 @@ This is a practice project for automating ServiceNow, which is harder to test th
 | ---- | -------------- |
 | `auth.setup.ts` | Logs in once and saves the session for the other tests |
 | `login.spec.ts` | The saved session stays logged in, and the REST API returns incidents with basic authentication |
+| `incident.spec.ts` | Creates an incident through the REST API and finds it in the incident list; creates an incident through the form and confirms it through the API |
+| `api.ts` | Helper for REST API calls: find, delete, and look up records |
 
 ## Setup
 
